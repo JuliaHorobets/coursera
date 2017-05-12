@@ -11,10 +11,10 @@ for (var i = 0; i<names.length; i++) {
 
   
   if ( firstLetter === 'j'/* fill in condition here */) {
-    console.log( byeSpeaker.speak(names[i]));
+     byeSpeaker.speak(names[i]);
     // byeSpeaker.xxxx
   } else {
-    console.log( helloSpeaker.speak(names[i]));
+     helloSpeaker.speak(names[i]);
   };
 };
 })();
